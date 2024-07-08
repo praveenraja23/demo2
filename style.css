@@ -1,0 +1,336 @@
+ .a
+{
+	height: 50px;
+	width: 100%;
+	display: flex;
+}
+.b
+{
+    height: 50px;
+	width: 50%;
+	
+	
+}
+.c
+{
+    height: 50px;
+	width: 50%;
+	
+	display: flex;
+	/*margin-left:50%;
+	margin-top:-50px;*/
+	justify-content: space-evenly;
+}
+.c i
+{
+	display: none;
+}
+.topic h1
+{
+	font-size: 70px;
+}
+.topic i
+{
+	padding: 10px 15px;
+	background-color: teal;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 30px;
+}
+.intro
+{
+	height:600px;
+	width:100%;
+	display: flex;
+}
+.intro img
+{
+	height:500px;
+	width :750px;
+
+}
+.subintro
+{
+	height:500px;
+	width:50% ;
+	border:1 px solid;
+	margin-top: 80px;
+	margin-left: 50px;
+}
+.subintro button
+{
+	margin-top: 100px;
+    border-radius: 35px;
+}
+.service
+{
+	height: 400px;
+	width: 100%;
+	display: flex;
+}
+.bus 
+{
+	height: 400px;
+	width : 33%;
+}
+.cycle 
+{
+	height: 400px;
+	width : 33%;
+}
+.factory 
+{
+	height: 400px;
+	width : 33%;
+	border : 1 px solid;
+}
+.bus i
+{
+	font-size: 90px;
+	margin-top: 105px;
+}
+.cycle i
+{
+	font-size: 90px;
+	margin-top: 105px;
+}
+.factory i
+{
+	font-size: 90px;
+	margin-top: 105px;
+}
+.work
+{
+	height:250px;
+	width:100%;
+}
+.work h1
+{
+	margin-top: 50px;
+}
+.photo
+{
+	height: 200px;
+	width: 100%;
+	display: flex;
+}
+.photo img
+{
+	height:180px;
+	width :100%;
+	padding: 20px;
+}
+.about
+{
+	height: 250px;
+	width : 100%;
+	margin-left: 25PX;
+}
+/*.address i 
+{
+	color: #fff;
+	font-size: 35px;
+	margin-left: 300px;
+}
+.dots i
+{
+	height: 18px;
+	width: 100%;
+	font-size: 80px;
+	color: blue;
+}
+.address
+{
+	height: 400px;
+	width: 100%;
+	border: 1px solid;
+	display: flex;
+	font-size: 20px;
+}
+.mail 
+{
+	margin-left: 200px;
+	margin-top: 60px;
+
+}	
+.mail p 
+{
+	margin-left: 400px;
+	margin-top: -25px;
+}
+.box
+{
+	margin-left: -320px;
+	margin-top: 220px;
+}
+.box button
+{
+	margin-left: 100px;
+	margin-top: 45px;
+}
+.phone
+{
+	margin-top: 70px;
+	margin-left: -120px;
+}
+.phone p 
+{
+	margin-left: 380px;
+	margin-top: -35px;
+}
+.location
+{
+	margin-top: 250px;
+	margin-left: -490px;
+}	
+.location p 
+{
+	margin-left: 400px;
+	margin-top: -25px;
+}
+.backround 
+{
+	background-image: url(backround1.webp);
+	background-size: cover;
+}
+.backround1
+{
+	background-image: url(backround1.webp);
+	background-size: cover;
+}
+.photo */
+
+.address
+{
+	height: 500px;
+	width: 100%;
+	border: 1px solid;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px 200px;
+	font-size: 200%;
+}
+
+.phone
+{
+	margin-left: -400px;
+	margin-top: 40px;
+}
+.phone p
+{
+	margin-left: 250px;
+	margin-top: -35px;
+}
+.location
+{
+	margin-left: -400px;
+	margin-top: 40px;
+}
+.location p
+{
+	margin-left: 300px;
+	margin-top: -35px;
+}
+.mail 
+{
+	margin-left: -550px;
+	margin-top: 40px;
+}
+.mail p
+{
+	margin-left: 400px;
+	margin-top: -35px;
+}
+.box
+{
+	margin-left: -350px;
+	margin-top: 40px;
+}
+.box p
+{
+	margin-left: 250px;
+	margin-top: -35px;
+}
+.backround 
+{
+	background-image: url(backround1.webp);
+	background-size: cover;
+}
+.backround1
+{
+	background-image: url(backround1.webp);
+	background-size: cover;
+}
+
+
+
+
+
+
+@media (max-width:822px)
+{
+	.c 
+	{
+	 display: flex;
+	 justify-content: space-evenly;
+	 width: 80%;
+	 border: 1px solid;
+
+	}
+	.b 
+	{
+		width: 20%;
+		border: 1px solid;
+	}
+	.a
+	{
+		display: flex;
+	}
+
+}
+@media (max-width:487px)
+{
+ .c h2
+   {
+	 display: none;	
+   }
+ .b 
+	{
+		width: 50%;
+		border: 1px solid;
+		display: flex;
+    	align-items: center;
+    	justify-content: center;
+	}
+ .c
+	{
+		width:50% ;
+		border: 1px solid;
+	}	
+	
+  .c i 
+    {
+    	display: block;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    }
+}
+@media (max-width:987px)
+{
+	.intro .img img
+	{
+	 	height:600px;
+	 	width: 80%;
+	}
+}
+/*@media (max-width:1245px)
+{
+	.photo img
+	{
+		height:100px;
+	 	width: 30%; ;
+
+	}
+}
+*/
